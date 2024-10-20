@@ -1,0 +1,6 @@
+python-dotenv
+streamlit
+pathlib
+textwrap3
+pillow
+google.generativeai
