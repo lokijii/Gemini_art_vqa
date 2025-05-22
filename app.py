@@ -13,7 +13,7 @@ def to_markdown(text):
   text = text.replace('•', '  *')
   return (textwrap3.indent(text, '> ', predicate=lambda _: True))
 
-genai.configure(api_key="")
+genai.configure(api_key="YOUR_API_KEY")
 
 
 def get_gemini_response(question):
